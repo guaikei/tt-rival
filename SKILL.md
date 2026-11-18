@@ -6,6 +6,11 @@ name: tt-rival
 description: "TikTok竞品监控数据源（只读）：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.2
+display_name: "TikTok竞品监控｜对标账号·作品数据·评论口碑"
+display_name_en: "TikTok Competitor Monitor"
+description_zh: "TikTok竞品监控数据源（只读）：对标账号作品列表与互动数据、关键词搜视频、视频评论舆情；支持相关度/最多点赞与最新/最热排序及时间窗筛选，全部以结构化 JSON 输出供 AI 直接对比分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 30/30/40，超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于对标账号跟踪、竞品内容策略对比、KOL 筛选、评论口碑监控与爆款选题差异化。"
+description_en: "Read-only TikTok competitor-monitoring data source: benchmark-account video lists and engagement stats, keyword video search, and comment sentiment mining. Supports relevance/most-liked and latest/hottest sorting plus time-window filters; all results are structured JSON ready for direct comparative analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/creator-videos/comments at 30/30/40, returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for benchmark-account tracking, competitor content-strategy comparison, KOL vetting, comment reputation monitoring, and differentiated breakout topic selection."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
